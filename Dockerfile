@@ -5,7 +5,7 @@ RUN apt -y update
 RUN apt -y install apache2
 
 # home page copy from /home/index.html
-COPY index.html /var/www/html/index.html
+# COPY index.html /var/www/html/index.html
 
 EXPOSE 80
 
